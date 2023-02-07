@@ -1,0 +1,63 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body
+{
+  background-color: #4a7da0;
+}
+.nav-bar
+{
+  background-color: #e9bb62;
+}
+.nav-bar-content
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.logo
+{
+}
+.nav-list
+{
+  display: flex;
+}
+.link
+{
+  margin: 0px 20px;
+  font-size:  small;
+}
+.img-background
+{
+  display: grid;
+  justify-content: space-around;
+}
+#principal
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+.livros
+{
+  display: grid;
+}
+.livros-destaque
+{
+  display: flex;
+}
+.livros-unitarios
+{
+}
+.livros-imagem
+{
+  height: 100px;
+}
+.categorias
+{
+  height: 100px;
+  width: 100px;
+background-color: #e9bb62;
+}
