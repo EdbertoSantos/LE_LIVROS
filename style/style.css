@@ -71,7 +71,7 @@ body {
 .books {
   display: grid;
   justify-content: center;
-  margin: 0px 20px;
+  margin: 20px 20px;
 }
 
 .livros-imagem {
@@ -113,7 +113,69 @@ body {
 }
 
 .categorias {
-  height: 100px;
-  width: 100px;
+  margin: 20px;
+}
+
+.Links-categorias {
   background-color: #e9bb62;
+  display: grid;
+  padding: 20px;
+  font-size: 13px;
+}
+
+.Links:hover {
+  color: #4a7da0;
+}
+
+.Links:active {
+  text-decoration: none
+}
+
+.Links:link {
+  text-decoration: none;
+}
+
+.Links:visited {
+  text-decoration: none;
+}
+
+
+#selecao-pag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.pag {
+  margin: 10px;
+  padding: 5px;
+  border-style: solid;
+  border-color: #000000;
+}
+
+.link-pag {
+  color: #e9bb62;
+}
+
+.link-pag:active {
+  text-decoration: none
+}
+
+.link-pag:link {
+  text-decoration: none;
+}
+
+.link-pag:visited {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #e9bb62;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
 }
